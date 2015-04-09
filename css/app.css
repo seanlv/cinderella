@@ -1,0 +1,33 @@
+.list-box {
+	width: 300px;
+	margin: auto;
+}
+
+.detail-box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 400px;
+	height: 300px;
+	margin-left: -200px;
+	margin-top: -150px;
+	line-height: 300px;
+}
+.result-box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 600px;
+	height: 200px;
+	margin-left: -300px;
+	margin-top: -100px;
+}
+#start .btn {
+	font-size: 74px;
+}
+#card p {
+	font-size: 220px;
+}
+#stop p {
+	font-size: 48px;	
+}

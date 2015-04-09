@@ -1,0 +1,9 @@
+<div class="detail-box">
+	<h3>记忆训练 <small>v1.0</small></h3>
+	<div class="list-group">
+		<a href="#/tests/{{test.index}}" class="list-group-item" ng-repeat="test in tests">
+			<h4 class="list-group-item-heading">{{test.name}}</h4>
+			<p class="list-group-item-text">共 {{test.total}} 张记忆卡抽 {{test.exam}} 张，显示间隔 {{test.interval}} 秒。</p>
+		</a>
+	</div>
+</div>

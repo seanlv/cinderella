@@ -1,0 +1,18 @@
+<div id="start" class="detail-box text-center" ng-show="show.start">
+	<button type="button" class="btn btn-default" ng-click="start()">开始</button>
+</div>
+<div id="card" class="detail-box text-center" ng-show="show.card">
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<P>{{card.text}}</P>
+		</div>
+	</div>
+</div>
+<div id="stop" class="result-box text-center" ng-show="show.stop">
+	<div>
+		<h3>播放结束!</h3>
+		<button type="button" class="btn btn-default" ng-click="showDetail()">显示详细</button>
+		<a class="btn btn-default" href="/#/" role="button">重新开始</a>
+		<p ng-show="show.result"><span ng-repeat="item in detail">{{item}} </span></p>
+	</div>
+</div>
